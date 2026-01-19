@@ -120,11 +120,11 @@ export function ServicesGrid() {
                   {/* Icon */}
                   <div
                     className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110"
-                    style={{ backgroundColor: 'rgba(197, 167, 136, 0.15)' }}
+                    style={{ backgroundColor: 'rgba(52, 152, 219, 0.15)' }}
                   >
                     <service.icon
                       className="h-7 w-7"
-                      style={{ color: '#c5a788' }}
+                      style={{ color: '#3498db' }}
                     />
                   </div>
 
@@ -145,7 +145,7 @@ export function ServicesGrid() {
                   {/* Link */}
                   <div
                     className="flex items-center gap-2 font-ui text-sm font-semibold transition-all duration-300 group-hover:gap-3"
-                    style={{ color: '#c5a788' }}
+                    style={{ color: '#3498db' }}
                   >
                     Learn More
                     <ArrowRight className="h-4 w-4" />

@@ -72,8 +72,8 @@ export default function CareersPage() {
             <span
               className="inline-block px-4 py-2 rounded-full text-sm font-ui font-medium tracking-wide mb-6"
               style={{
-                backgroundColor: 'rgba(197, 167, 136, 0.15)',
-                color: '#c5a788',
+                backgroundColor: 'rgba(52, 152, 219, 0.15)',
+                color: '#3498db',
               }}
             >
               Join Our Team
@@ -95,8 +95,8 @@ export default function CareersPage() {
               href="#positions"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105"
               style={{
-                backgroundColor: '#c5a788',
-                color: '#0d1c29',
+                backgroundColor: '#f68212',
+                color: '#ffffff',
               }}
             >
               View Open Positions
@@ -134,9 +134,9 @@ export default function CareersPage() {
               >
                 <div
                   className="w-14 h-14 rounded-xl flex items-center justify-center mb-6"
-                  style={{ backgroundColor: 'rgba(197, 167, 136, 0.15)' }}
+                  style={{ backgroundColor: 'rgba(52, 152, 219, 0.15)' }}
                 >
-                  <benefit.icon className="h-7 w-7" style={{ color: '#c5a788' }} />
+                  <benefit.icon className="h-7 w-7" style={{ color: '#3498db' }} />
                 </div>
                 <h3
                   className="font-display text-xl font-normal mb-3"
@@ -191,7 +191,7 @@ export default function CareersPage() {
               <Link
                 href="/about"
                 className="inline-flex items-center gap-2 text-base font-ui font-semibold transition-colors"
-                style={{ color: '#c5a788' }}
+                style={{ color: '#3498db' }}
               >
                 Learn More About Us
                 <ArrowRight className="h-5 w-5" />
@@ -214,7 +214,7 @@ export default function CareersPage() {
                     <li key={value} className="flex items-center gap-3">
                       <div
                         className="w-2 h-2 rounded-full"
-                        style={{ backgroundColor: '#c5a788' }}
+                        style={{ backgroundColor: '#f68212' }}
                       />
                       <span
                         className="text-base"
@@ -272,8 +272,8 @@ export default function CareersPage() {
                       <span
                         className="inline-block px-3 py-1 rounded-full text-xs font-ui"
                         style={{
-                          backgroundColor: 'rgba(197, 167, 136, 0.15)',
-                          color: '#c5a788',
+                          backgroundColor: 'rgba(52, 152, 219, 0.15)',
+                          color: '#3498db',
                         }}
                       >
                         {position.type}
@@ -300,8 +300,8 @@ export default function CareersPage() {
                       href="/contact"
                       className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-ui text-sm font-semibold transition-all duration-300 hover:scale-105"
                       style={{
-                        backgroundColor: '#c5a788',
-                        color: '#0d1c29',
+                        backgroundColor: '#f68212',
+                        color: '#ffffff',
                       }}
                     >
                       Apply Now
@@ -333,7 +333,7 @@ export default function CareersPage() {
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 text-base font-ui font-semibold transition-colors"
-              style={{ color: '#c5a788' }}
+              style={{ color: '#3498db' }}
             >
               Get in Touch
               <ArrowRight className="h-5 w-5" />
@@ -364,8 +364,8 @@ export default function CareersPage() {
             href="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105"
             style={{
-              backgroundColor: '#c5a788',
-              color: '#0d1c29',
+              backgroundColor: '#f68212',
+              color: '#ffffff',
             }}
           >
             Contact Us

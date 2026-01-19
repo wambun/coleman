@@ -64,8 +64,8 @@ export function ValueProposition() {
             viewport={{ once: true }}
             className="inline-block px-4 py-2 rounded-full text-sm font-ui font-medium tracking-wide mb-4"
             style={{
-              backgroundColor: 'rgba(197, 167, 136, 0.15)',
-              color: '#c5a788',
+              backgroundColor: 'rgba(52, 152, 219, 0.15)',
+              color: '#3498db',
             }}
           >
             Why Choose Us
@@ -110,9 +110,9 @@ export function ValueProposition() {
               {/* Icon */}
               <div
                 className="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6"
-                style={{ backgroundColor: 'rgba(197, 167, 136, 0.15)' }}
+                style={{ backgroundColor: 'rgba(52, 152, 219, 0.15)' }}
               >
-                <value.icon className="h-8 w-8" style={{ color: '#c5a788' }} />
+                <value.icon className="h-8 w-8" style={{ color: '#3498db' }} />
               </div>
 
               {/* Content */}

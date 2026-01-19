@@ -21,8 +21,8 @@ export default function ContactPage() {
             <span
               className="inline-block px-4 py-2 rounded-full text-sm font-ui font-medium tracking-wide mb-6"
               style={{
-                backgroundColor: 'rgba(197, 167, 136, 0.15)',
-                color: '#c5a788',
+                backgroundColor: 'rgba(52, 152, 219, 0.15)',
+                color: '#3498db',
               }}
             >
               Get in Touch
@@ -195,8 +195,8 @@ export default function ContactPage() {
                   type="submit"
                   className="w-full px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-[1.02]"
                   style={{
-                    backgroundColor: '#c5a788',
-                    color: '#0d1c29',
+                    backgroundColor: '#f68212',
+                    color: '#ffffff',
                   }}
                 >
                   Send Message
@@ -226,9 +226,9 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <div
                     className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
-                    style={{ backgroundColor: 'rgba(197, 167, 136, 0.15)' }}
+                    style={{ backgroundColor: 'rgba(52, 152, 219, 0.15)' }}
                   >
-                    <Mail className="h-6 w-6" style={{ color: '#c5a788' }} />
+                    <Mail className="h-6 w-6" style={{ color: '#3498db' }} />
                   </div>
                   <div>
                     <h3
@@ -250,9 +250,9 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <div
                     className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
-                    style={{ backgroundColor: 'rgba(197, 167, 136, 0.15)' }}
+                    style={{ backgroundColor: 'rgba(52, 152, 219, 0.15)' }}
                   >
-                    <MapPin className="h-6 w-6" style={{ color: '#c5a788' }} />
+                    <MapPin className="h-6 w-6" style={{ color: '#3498db' }} />
                   </div>
                   <div>
                     <h3
@@ -276,9 +276,9 @@ export default function ContactPage() {
                   <div className="flex items-start gap-4">
                     <div
                       className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
-                      style={{ backgroundColor: 'rgba(197, 167, 136, 0.15)' }}
+                      style={{ backgroundColor: 'rgba(52, 152, 219, 0.15)' }}
                     >
-                      <Linkedin className="h-6 w-6" style={{ color: '#c5a788' }} />
+                      <Linkedin className="h-6 w-6" style={{ color: '#3498db' }} />
                     </div>
                     <div>
                       <h3
@@ -304,7 +304,7 @@ export default function ContactPage() {
               {/* Additional Info */}
               <div
                 className="p-6 rounded-xl"
-                style={{ backgroundColor: 'rgba(197, 167, 136, 0.1)' }}
+                style={{ backgroundColor: 'rgba(52, 152, 219, 0.1)' }}
               >
                 <h3
                   className="font-ui font-semibold mb-2"

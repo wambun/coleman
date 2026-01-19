@@ -22,8 +22,8 @@ export default function TestimonialsPage() {
             <span
               className="inline-block px-4 py-2 rounded-full text-sm font-ui font-medium tracking-wide mb-6"
               style={{
-                backgroundColor: 'rgba(197, 167, 136, 0.15)',
-                color: '#c5a788',
+                backgroundColor: 'rgba(52, 152, 219, 0.15)',
+                color: '#3498db',
               }}
             >
               Client Success
@@ -60,7 +60,7 @@ export default function TestimonialsPage() {
                 {/* Quote Icon */}
                 <div
                   className="absolute -top-4 left-8 w-8 h-8 rounded-full flex items-center justify-center"
-                  style={{ backgroundColor: '#c5a788' }}
+                  style={{ backgroundColor: '#f68212' }}
                 >
                   <Quote className="h-4 w-4 text-white" />
                 </div>
@@ -95,12 +95,12 @@ export default function TestimonialsPage() {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="hover:underline"
-                          style={{ color: '#c5a788' }}
+                          style={{ color: '#3498db' }}
                         >
                           {testimonial.company}
                         </a>
                       ) : (
-                        <span style={{ color: '#c5a788' }}>
+                        <span style={{ color: '#3498db' }}>
                           {testimonial.company}
                         </span>
                       )}
@@ -135,8 +135,8 @@ export default function TestimonialsPage() {
             href="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105"
             style={{
-              backgroundColor: '#c5a788',
-              color: '#0d1c29',
+              backgroundColor: '#f68212',
+              color: '#ffffff',
             }}
           >
             Get Started

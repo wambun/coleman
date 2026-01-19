@@ -90,8 +90,8 @@ export default function ServicesPage() {
             <span
               className="inline-block px-4 py-2 rounded-full text-sm font-ui font-medium tracking-wide mb-6"
               style={{
-                backgroundColor: 'rgba(197, 167, 136, 0.15)',
-                color: '#c5a788',
+                backgroundColor: 'rgba(52, 152, 219, 0.15)',
+                color: '#3498db',
               }}
             >
               Our Services
@@ -128,11 +128,11 @@ export default function ServicesPage() {
                 <div className="flex-1">
                   <div
                     className="w-14 h-14 rounded-xl flex items-center justify-center mb-6"
-                    style={{ backgroundColor: 'rgba(197, 167, 136, 0.15)' }}
+                    style={{ backgroundColor: 'rgba(52, 152, 219, 0.15)' }}
                   >
                     <service.icon
                       className="h-7 w-7"
-                      style={{ color: '#c5a788' }}
+                      style={{ color: '#3498db' }}
                     />
                   </div>
                   <h2
@@ -150,7 +150,7 @@ export default function ServicesPage() {
                   <Link
                     href={service.href}
                     className="inline-flex items-center gap-2 font-ui text-base font-semibold transition-all duration-200 hover:gap-3"
-                    style={{ color: '#c5a788' }}
+                    style={{ color: '#3498db' }}
                   >
                     Learn More
                     <ArrowRight className="h-5 w-5" />
@@ -173,7 +173,7 @@ export default function ServicesPage() {
                       <li key={feature} className="flex items-center gap-3">
                         <div
                           className="w-2 h-2 rounded-full flex-shrink-0"
-                          style={{ backgroundColor: '#c5a788' }}
+                          style={{ backgroundColor: '#f68212' }}
                         />
                         <span style={{ color: '#0d1c29' }}>{feature}</span>
                       </li>
@@ -208,8 +208,8 @@ export default function ServicesPage() {
             href="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105"
             style={{
-              backgroundColor: '#c5a788',
-              color: '#0d1c29',
+              backgroundColor: '#f68212',
+              color: '#ffffff',
             }}
           >
             Request Information

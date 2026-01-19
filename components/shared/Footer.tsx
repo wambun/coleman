@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Linkedin } from 'lucide-react';
 import { footerLinks } from '@/data/config/footerLinks';
 import { siteConfig } from '@/data/config/site.settings';
@@ -16,12 +17,19 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block mb-6">
+            <Link href="/" className="inline-flex items-center gap-3 mb-6">
+              <Image
+                src="/jcc-icon.png"
+                alt="JColeman Consulting"
+                width={36}
+                height={36}
+                className="h-9 w-9"
+              />
               <span
-                className="font-display text-2xl font-light tracking-wide"
+                className="font-display text-xl font-light tracking-wide"
                 style={{ color: '#ffffff' }}
               >
-                {siteConfig.logoTitle || 'JColeman'}
+                JColeman
               </span>
             </Link>
             <p
@@ -42,7 +50,7 @@ export function Footer() {
                   style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)' }}
                   aria-label="LinkedIn"
                 >
-                  <Linkedin className="h-5 w-5" style={{ color: '#c5a788' }} />
+                  <Linkedin className="h-5 w-5" style={{ color: '#3498db' }} />
                 </a>
               )}
             </div>
@@ -53,7 +61,7 @@ export function Footer() {
             <div key={column.columnName}>
               <h3
                 className="font-ui text-sm font-semibold uppercase tracking-wider mb-6"
-                style={{ color: '#c5a788' }}
+                style={{ color: '#3498db' }}
               >
                 {column.columnName}
               </h3>
@@ -77,7 +85,7 @@ export function Footer() {
           <div>
             <h3
               className="font-ui text-sm font-semibold uppercase tracking-wider mb-6"
-              style={{ color: '#c5a788' }}
+              style={{ color: '#3498db' }}
             >
               Contact
             </h3>

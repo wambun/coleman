@@ -2,11 +2,11 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { headerNavLinks } from '@/data/config/headerNavLinks';
-import { siteConfig } from '@/data/config/site.settings';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,10 +40,17 @@ export function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center gap-2 text-white hover:opacity-90 transition-opacity"
+            className="flex items-center gap-3 hover:opacity-90 transition-opacity"
           >
-            <span className="font-display text-2xl font-light tracking-wide">
-              {siteConfig.logoTitle || 'JColeman'}
+            <Image
+              src="/jcc-icon.png"
+              alt="JColeman Consulting"
+              width={40}
+              height={40}
+              className="h-10 w-10"
+            />
+            <span className="font-display text-xl font-light tracking-wide text-white hidden sm:inline">
+              JColeman
             </span>
           </Link>
 
@@ -61,7 +68,7 @@ export function Header() {
                 style={{
                   color:
                     pathname === link.href || pathname.startsWith(link.href + '/')
-                      ? '#c5a788'
+                      ? '#3498db'
                       : undefined,
                 }}
               >
@@ -76,8 +83,8 @@ export function Header() {
               href="/contact"
               className="inline-flex items-center justify-center px-6 py-2.5 rounded-full font-ui text-sm font-semibold transition-all duration-200 hover:scale-105"
               style={{
-                backgroundColor: '#c5a788',
-                color: '#0d1c29',
+                backgroundColor: '#f68212',
+                color: '#ffffff',
               }}
             >
               Get Started
@@ -123,7 +130,7 @@ export function Header() {
                   style={{
                     color:
                       pathname === link.href || pathname.startsWith(link.href + '/')
-                        ? '#c5a788'
+                        ? '#3498db'
                         : undefined,
                   }}
                 >
@@ -134,8 +141,8 @@ export function Header() {
                 href="/contact"
                 className="block w-full text-center px-6 py-3 rounded-full font-ui text-sm font-semibold mt-4"
                 style={{
-                  backgroundColor: '#c5a788',
-                  color: '#0d1c29',
+                  backgroundColor: '#f68212',
+                  color: '#ffffff',
                 }}
               >
                 Get Started

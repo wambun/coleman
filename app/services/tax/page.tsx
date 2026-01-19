@@ -73,8 +73,8 @@ export default function TaxPage() {
               href="/contact"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105"
               style={{
-                backgroundColor: '#c5a788',
-                color: '#0d1c29',
+                backgroundColor: '#f68212',
+                color: '#ffffff',
               }}
             >
               Request Information
@@ -112,11 +112,11 @@ export default function TaxPage() {
               >
                 <div
                   className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-6"
-                  style={{ backgroundColor: 'rgba(197, 167, 136, 0.15)' }}
+                  style={{ backgroundColor: 'rgba(52, 152, 219, 0.15)' }}
                 >
                   <feature.icon
                     className="h-7 w-7"
-                    style={{ color: '#c5a788' }}
+                    style={{ color: '#3498db' }}
                   />
                 </div>
                 <h3
@@ -147,12 +147,12 @@ export default function TaxPage() {
             <div>
               <div
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6"
-                style={{ backgroundColor: 'rgba(197, 167, 136, 0.15)' }}
+                style={{ backgroundColor: 'rgba(52, 152, 219, 0.15)' }}
               >
-                <Lightbulb className="h-5 w-5" style={{ color: '#c5a788' }} />
+                <Lightbulb className="h-5 w-5" style={{ color: '#3498db' }} />
                 <span
                   className="text-sm font-ui font-medium"
-                  style={{ color: '#c5a788' }}
+                  style={{ color: '#3498db' }}
                 >
                   Featured Service
                 </span>
@@ -187,7 +187,7 @@ export default function TaxPage() {
             >
               <h3
                 className="font-ui text-sm font-semibold uppercase tracking-wider mb-6"
-                style={{ color: '#c5a788' }}
+                style={{ color: '#3498db' }}
               >
                 R&D Credit Benefits
               </h3>
@@ -196,7 +196,7 @@ export default function TaxPage() {
                   <li key={benefit} className="flex items-center gap-3">
                     <div
                       className="w-2 h-2 rounded-full flex-shrink-0"
-                      style={{ backgroundColor: '#c5a788' }}
+                      style={{ backgroundColor: '#f68212' }}
                     />
                     <span style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
                       {benefit}
@@ -228,8 +228,8 @@ export default function TaxPage() {
             href="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105"
             style={{
-              backgroundColor: '#c5a788',
-              color: '#0d1c29',
+              backgroundColor: '#f68212',
+              color: '#ffffff',
             }}
           >
             Get Started

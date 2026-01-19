@@ -36,8 +36,8 @@ export default function ArticlesPage() {
             <span
               className="inline-block px-4 py-2 rounded-full text-sm font-ui font-medium tracking-wide mb-6"
               style={{
-                backgroundColor: 'rgba(197, 167, 136, 0.15)',
-                color: '#c5a788',
+                backgroundColor: 'rgba(52, 152, 219, 0.15)',
+                color: '#3498db',
               }}
             >
               Insights & Resources
@@ -82,8 +82,8 @@ export default function ArticlesPage() {
                     <span
                       className="inline-block px-3 py-1 rounded-full text-xs font-ui font-medium"
                       style={{
-                        backgroundColor: 'rgba(197, 167, 136, 0.15)',
-                        color: '#c5a788',
+                        backgroundColor: 'rgba(52, 152, 219, 0.15)',
+                        color: '#3498db',
                       }}
                     >
                       Featured
@@ -142,8 +142,8 @@ export default function ArticlesPage() {
                 key={category}
                 className="inline-block px-4 py-2 rounded-full text-sm font-ui cursor-pointer transition-colors hover:opacity-80"
                 style={{
-                  backgroundColor: 'rgba(197, 167, 136, 0.15)',
-                  color: '#c5a788',
+                  backgroundColor: 'rgba(52, 152, 219, 0.15)',
+                  color: '#3498db',
                 }}
               >
                 {category}
@@ -188,7 +188,7 @@ export default function ArticlesPage() {
                         </span>
                         <span
                           className="text-sm"
-                          style={{ color: '#c5a788' }}
+                          style={{ color: '#3498db' }}
                         >
                           {article.categories[0]}
                         </span>
@@ -209,7 +209,7 @@ export default function ArticlesPage() {
                     <div className="flex-shrink-0">
                       <span
                         className="inline-flex items-center gap-2 text-sm font-ui font-medium group-hover:gap-3 transition-all"
-                        style={{ color: '#c5a788' }}
+                        style={{ color: '#3498db' }}
                       >
                         Read Article
                         <ArrowRight className="h-4 w-4" />
@@ -246,8 +246,8 @@ export default function ArticlesPage() {
             href="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105"
             style={{
-              backgroundColor: '#c5a788',
-              color: '#0d1c29',
+              backgroundColor: '#f68212',
+              color: '#ffffff',
             }}
           >
             Get in Touch

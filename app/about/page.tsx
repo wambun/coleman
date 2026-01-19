@@ -22,8 +22,8 @@ export default function AboutPage() {
             <span
               className="inline-block px-4 py-2 rounded-full text-sm font-ui font-medium tracking-wide mb-6"
               style={{
-                backgroundColor: 'rgba(197, 167, 136, 0.15)',
-                color: '#c5a788',
+                backgroundColor: 'rgba(52, 152, 219, 0.15)',
+                color: '#3498db',
               }}
             >
               About Us
@@ -45,8 +45,8 @@ export default function AboutPage() {
               href="/contact"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105"
               style={{
-                backgroundColor: '#c5a788',
-                color: '#0d1c29',
+                backgroundColor: '#f68212',
+                color: '#ffffff',
               }}
             >
               Request Information
@@ -88,7 +88,7 @@ export default function AboutPage() {
               >
                 <div
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4 font-display text-lg"
-                  style={{ backgroundColor: '#c5a788', color: '#0d1c29' }}
+                  style={{ backgroundColor: '#f68212', color: '#0d1c29' }}
                 >
                   {index + 1}
                 </div>
@@ -142,7 +142,7 @@ export default function AboutPage() {
                 {/* Avatar Placeholder */}
                 <div
                   className="w-20 h-20 rounded-full flex items-center justify-center mb-4 font-display text-2xl"
-                  style={{ backgroundColor: 'rgba(197, 167, 136, 0.2)', color: '#c5a788' }}
+                  style={{ backgroundColor: 'rgba(52, 152, 219, 0.2)', color: '#3498db' }}
                 >
                   {member.name
                     .split(' ')
@@ -160,7 +160,7 @@ export default function AboutPage() {
                       {member.credentials && (
                         <span
                           className="ml-2 text-sm font-normal"
-                          style={{ color: '#c5a788' }}
+                          style={{ color: '#3498db' }}
                         >
                           {member.credentials}
                         </span>
@@ -179,10 +179,10 @@ export default function AboutPage() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 rounded-full transition-all duration-200 hover:scale-110"
-                      style={{ backgroundColor: 'rgba(197, 167, 136, 0.15)' }}
+                      style={{ backgroundColor: 'rgba(52, 152, 219, 0.15)' }}
                       aria-label={`${member.name} LinkedIn`}
                     >
-                      <Linkedin className="h-4 w-4" style={{ color: '#c5a788' }} />
+                      <Linkedin className="h-4 w-4" style={{ color: '#3498db' }} />
                     </a>
                   )}
                 </div>
@@ -218,8 +218,8 @@ export default function AboutPage() {
             href="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105"
             style={{
-              backgroundColor: '#c5a788',
-              color: '#0d1c29',
+              backgroundColor: '#f68212',
+              color: '#ffffff',
             }}
           >
             Get Started

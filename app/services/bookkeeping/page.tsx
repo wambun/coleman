@@ -163,8 +163,8 @@ export default function BookkeepingPage() {
               href="/contact"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105"
               style={{
-                backgroundColor: '#c5a788',
-                color: '#0d1c29',
+                backgroundColor: '#f68212',
+                color: '#ffffff',
               }}
             >
               Request Information
@@ -187,11 +187,11 @@ export default function BookkeepingPage() {
                 <div className="flex items-start gap-6 mb-8">
                   <div
                     className="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0"
-                    style={{ backgroundColor: 'rgba(197, 167, 136, 0.15)' }}
+                    style={{ backgroundColor: 'rgba(52, 152, 219, 0.15)' }}
                   >
                     <service.icon
                       className="h-7 w-7"
-                      style={{ color: '#c5a788' }}
+                      style={{ color: '#3498db' }}
                     />
                   </div>
                   <div>
@@ -260,8 +260,8 @@ export default function BookkeepingPage() {
             href="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105"
             style={{
-              backgroundColor: '#c5a788',
-              color: '#0d1c29',
+              backgroundColor: '#f68212',
+              color: '#ffffff',
             }}
           >
             Get Started

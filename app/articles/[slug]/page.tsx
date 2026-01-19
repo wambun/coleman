@@ -78,8 +78,8 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                   key={category}
                   className="inline-block px-4 py-2 rounded-full text-sm font-ui font-medium"
                   style={{
-                    backgroundColor: 'rgba(197, 167, 136, 0.15)',
-                    color: '#c5a788',
+                    backgroundColor: 'rgba(52, 152, 219, 0.15)',
+                    color: '#3498db',
                   }}
                 >
                   {category}
@@ -248,7 +248,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                     >
                       <span
                         className="text-xs mb-1 block"
-                        style={{ color: '#c5a788' }}
+                        style={{ color: '#3498db' }}
                       >
                         {recentArticle.categories[0]}
                       </span>
@@ -282,7 +282,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                   <Link
                     href="/contact"
                     className="inline-flex items-center gap-2 text-sm font-ui font-semibold transition-colors"
-                    style={{ color: '#c5a788' }}
+                    style={{ color: '#3498db' }}
                   >
                     Contact Us
                     <ArrowRight className="h-4 w-4" />
@@ -317,8 +317,8 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             href="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105"
             style={{
-              backgroundColor: '#c5a788',
-              color: '#0d1c29',
+              backgroundColor: '#f68212',
+              color: '#ffffff',
             }}
           >
             Request Information

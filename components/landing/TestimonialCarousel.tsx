@@ -79,7 +79,7 @@ export function TestimonialCarousel() {
           {/* Quote Icon */}
           <div
             className="absolute -top-6 left-8 w-12 h-12 rounded-full flex items-center justify-center z-10"
-            style={{ backgroundColor: '#c5a788' }}
+            style={{ backgroundColor: '#f68212' }}
           >
             <Quote className="h-6 w-6 text-white" />
           </div>
@@ -127,12 +127,12 @@ export function TestimonialCarousel() {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="hover:underline"
-                          style={{ color: '#c5a788' }}
+                          style={{ color: '#3498db' }}
                         >
                           {currentTestimonial.company}
                         </a>
                       ) : (
-                        <span style={{ color: '#c5a788' }}>
+                        <span style={{ color: '#3498db' }}>
                           {currentTestimonial.company}
                         </span>
                       )}
@@ -168,7 +168,7 @@ export function TestimonialCarousel() {
                   }`}
                   style={{
                     backgroundColor:
-                      index === currentIndex ? '#c5a788' : 'rgba(13, 28, 41, 0.2)',
+                      index === currentIndex ? '#3498db' : 'rgba(13, 28, 41, 0.2)',
                   }}
                   aria-label={`Go to testimonial ${index + 1}`}
                 />

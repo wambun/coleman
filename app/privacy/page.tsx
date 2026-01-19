@@ -192,7 +192,7 @@ export default function PrivacyPage() {
               <p className="text-base mb-2" style={{ color: 'rgba(13, 28, 41, 0.7)' }}>
                 Roseville, CA 95747
               </p>
-              <p className="text-base" style={{ color: '#c5a788' }}>
+              <p className="text-base" style={{ color: '#3498db' }}>
                 <a href="mailto:info@jcolemanconsulting.com" className="hover:underline">
                   info@jcolemanconsulting.com
                 </a>

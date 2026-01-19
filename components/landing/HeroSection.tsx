@@ -27,7 +27,7 @@ export function HeroSection({
         className="absolute inset-0 opacity-50"
         style={{
           background:
-            'radial-gradient(ellipse at 50% 0%, rgba(197, 167, 136, 0.15) 0%, transparent 50%)',
+            'radial-gradient(ellipse at 50% 0%, rgba(52, 152, 219, 0.15) 0%, transparent 50%)',
         }}
       />
 
@@ -43,8 +43,8 @@ export function HeroSection({
             <span
               className="inline-block px-4 py-2 rounded-full text-sm font-ui font-medium tracking-wide"
               style={{
-                backgroundColor: 'rgba(197, 167, 136, 0.15)',
-                color: '#c5a788',
+                backgroundColor: 'rgba(52, 152, 219, 0.15)',
+                color: '#3498db',
               }}
             >
               Startup Solutions
@@ -84,8 +84,8 @@ export function HeroSection({
               href={ctaHref}
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg"
               style={{
-                backgroundColor: '#c5a788',
-                color: '#0d1c29',
+                backgroundColor: '#f68212',
+                color: '#ffffff',
               }}
             >
               {ctaText}
@@ -114,7 +114,7 @@ export function HeroSection({
               <div className="text-center">
                 <p
                   className="font-display text-3xl lg:text-4xl font-light"
-                  style={{ color: '#c5a788' }}
+                  style={{ color: '#3498db' }}
                 >
                   $100M+
                 </p>
@@ -128,7 +128,7 @@ export function HeroSection({
               <div className="text-center">
                 <p
                   className="font-display text-3xl lg:text-4xl font-light"
-                  style={{ color: '#c5a788' }}
+                  style={{ color: '#3498db' }}
                 >
                   25+
                 </p>
@@ -142,7 +142,7 @@ export function HeroSection({
               <div className="text-center">
                 <p
                   className="font-display text-3xl lg:text-4xl font-light"
-                  style={{ color: '#c5a788' }}
+                  style={{ color: '#3498db' }}
                 >
                   100+
                 </p>

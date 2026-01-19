@@ -29,11 +29,11 @@ export function CTABanner({
           {/* Background decoration */}
           <div
             className="absolute top-0 right-0 w-96 h-96 rounded-full blur-3xl opacity-20"
-            style={{ backgroundColor: '#c5a788' }}
+            style={{ backgroundColor: '#f68212' }}
           />
           <div
             className="absolute bottom-0 left-0 w-64 h-64 rounded-full blur-3xl opacity-10"
-            style={{ backgroundColor: '#c5a788' }}
+            style={{ backgroundColor: '#f68212' }}
           />
 
           <div className="relative z-10 text-center max-w-3xl mx-auto">
@@ -66,8 +66,8 @@ export function CTABanner({
                 href={buttonHref}
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-ui text-base font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg"
                 style={{
-                  backgroundColor: '#c5a788',
-                  color: '#0d1c29',
+                  backgroundColor: '#f68212',
+                  color: '#ffffff',
                 }}
               >
                 {buttonText}
