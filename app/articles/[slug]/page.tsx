@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowRight, ArrowLeft, Calendar, Tag, User } from 'lucide-react';
 import { articles, getArticleBySlug, getRecentArticles } from '@/data/articles/articles';
+import { siteConfig } from '@/data/config/site.settings';
+import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/seo/JsonLd';
 
 interface ArticlePageProps {
   params: Promise<{
@@ -26,9 +28,22 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
     };
   }
 
+  const articleUrl = `${siteConfig.siteUrl}/articles/${article.slug}`;
+
   return {
     title: article.title,
     description: article.excerpt,
+    alternates: {
+      canonical: articleUrl,
+    },
+    openGraph: {
+      title: article.title,
+      description: article.excerpt,
+      url: articleUrl,
+      type: 'article',
+      publishedTime: article.date,
+      authors: [article.author],
+    },
   };
 }
 
@@ -54,8 +69,25 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   // Split content into paragraphs for better rendering
   const contentParagraphs = article.content.split('\n\n').filter((p) => p.trim());
 
+  const articleUrl = `${siteConfig.siteUrl}/articles/${article.slug}`;
+
   return (
-    <div className="w-full">
+    <>
+      <ArticleJsonLd
+        title={article.title}
+        description={article.excerpt}
+        url={articleUrl}
+        datePublished={article.date}
+        author={article.author}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: siteConfig.siteUrl },
+          { name: 'Articles', url: `${siteConfig.siteUrl}/articles` },
+          { name: article.title, url: articleUrl },
+        ]}
+      />
+      <div className="w-full">
       {/* Hero Section */}
       <section
         className="w-full py-16 lg:py-24"
@@ -326,6 +358,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           </Link>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 }

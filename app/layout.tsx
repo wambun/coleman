@@ -10,6 +10,7 @@ import { SearchProvider } from '@/components/shared/SearchProvider';
 import { AnalyticsWrapper } from '@/components/shared/Analytics';
 import { Header } from '@/components/shared/Header';
 import { Footer } from '@/components/shared/Footer';
+import { OrganizationJsonLd, LocalBusinessJsonLd, WebSiteJsonLd } from '@/components/seo/JsonLd';
 
 // Serif font for headlines - Frank Ruhl Libre
 const frankRuhlLibre = Frank_Ruhl_Libre({
@@ -58,17 +59,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: siteConfig.title,
     description: siteConfig.description,
-    url: './',
+    url: siteConfig.siteUrl,
     siteName: siteConfig.title,
     images: [siteConfig.socialBanner],
     locale: 'en_US',
     type: 'website',
   },
   alternates: {
-    canonical: './',
-    types: {
-      'application/rss+xml': `${siteConfig.siteUrl}/feed.xml`,
-    },
+    canonical: siteConfig.siteUrl,
   },
   robots: {
     index: true,
@@ -143,10 +141,12 @@ export default function RootLayout({
           media="(prefers-color-scheme: dark)"
           content="#000"
         />
-        <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
 
       <body className="flex flex-col bg-white text-black antialiased dark:bg-gray-950 dark:text-white min-h-screen">
+        <OrganizationJsonLd />
+        <LocalBusinessJsonLd />
+        <WebSiteJsonLd />
         <ThemeProviders>
           <AnalyticsWrapper />
           <Header />
