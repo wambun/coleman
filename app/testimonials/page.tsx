@@ -139,7 +139,6 @@ export default function TestimonialsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {testimonials.map((testimonial, index) => {
               const colors = cardColors[index % cardColors.length];
-              const isFeatured = index === 0;
 
               return (
                 <motion.div
@@ -147,10 +146,10 @@ export default function TestimonialsPage() {
                   initial={{ opacity: 0, y: 30 }}
                   animate={testimonialsInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: 0.1 * index }}
-                  className={`group ${isFeatured ? 'md:col-span-2' : ''}`}
+                  className="group"
                 >
                   <div
-                    className="relative p-8 lg:p-10 rounded-2xl transition-all duration-500 hover:-translate-y-2 hover:shadow-xl h-full"
+                    className="relative p-8 lg:p-10 rounded-2xl transition-all duration-500 hover:-translate-y-2 hover:shadow-xl h-full flex flex-col"
                     style={{
                       backgroundColor: '#f8fafc',
                       border: '1px solid rgba(13, 28, 41, 0.06)',
@@ -176,7 +175,7 @@ export default function TestimonialsPage() {
                       <Quote className="h-5 w-5 text-white" />
                     </div>
 
-                    <div className="relative z-10 pt-4">
+                    <div className="relative z-10 pt-4 flex flex-col flex-1">
                       {/* Rating Stars */}
                       <div className="flex gap-1 mb-4">
                         {[...Array(5)].map((_, i) => (
@@ -191,19 +190,17 @@ export default function TestimonialsPage() {
 
                       {/* Quote Text */}
                       <p
-                        className={`leading-relaxed mb-6 ${
-                          isFeatured ? 'text-lg lg:text-xl' : 'text-base'
-                        }`}
+                        className="text-base leading-relaxed mb-6 flex-1"
                         style={{ color: '#0d1c29' }}
                       >
                         &ldquo;{testimonial.quote}&rdquo;
                       </p>
 
                       {/* Author */}
-                      <div className="flex items-center gap-4">
+                      <div className="flex items-center gap-4 mt-auto">
                         {/* Avatar */}
                         <div
-                          className="w-12 h-12 rounded-full flex items-center justify-center font-display text-lg transition-transform duration-300 group-hover:scale-110"
+                          className="w-12 h-12 rounded-full flex items-center justify-center font-display text-lg transition-transform duration-300 group-hover:scale-110 flex-shrink-0"
                           style={{
                             background: `linear-gradient(135deg, ${colors.accent} 0%, ${colors.accent}cc 100%)`,
                             color: '#ffffff',
