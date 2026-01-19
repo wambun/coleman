@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
@@ -17,11 +18,64 @@ export function HeroSection({
   ctaText = 'Get Started Today',
   ctaHref = '/contact',
 }: HeroSectionProps) {
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [isHovering, setIsHovering] = useState(false);
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      if (sectionRef.current) {
+        const rect = sectionRef.current.getBoundingClientRect();
+        setMousePosition({
+          x: e.clientX - rect.left,
+          y: e.clientY - rect.top,
+        });
+      }
+    };
+
+    const section = sectionRef.current;
+    if (section) {
+      section.addEventListener('mousemove', handleMouseMove);
+    }
+
+    return () => {
+      if (section) {
+        section.removeEventListener('mousemove', handleMouseMove);
+      }
+    };
+  }, []);
+
   return (
     <section
+      ref={sectionRef}
       className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden"
       style={{ backgroundColor: '#0d1c29' }}
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
     >
+      {/* Interactive cursor glow */}
+      <motion.div
+        className="pointer-events-none absolute rounded-full"
+        animate={{
+          x: mousePosition.x - 200,
+          y: mousePosition.y - 200,
+          opacity: isHovering ? 1 : 0,
+        }}
+        transition={{
+          type: 'spring',
+          damping: 30,
+          stiffness: 200,
+          mass: 0.5,
+        }}
+        style={{
+          width: 400,
+          height: 400,
+          background:
+            'radial-gradient(circle, rgba(52, 152, 219, 0.15) 0%, rgba(246, 130, 18, 0.08) 40%, transparent 70%)',
+          filter: 'blur(40px)',
+        }}
+      />
+
       {/* Background gradient overlay */}
       <div
         className="absolute inset-0 opacity-50"
