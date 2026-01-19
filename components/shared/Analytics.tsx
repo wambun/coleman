@@ -1,5 +1,6 @@
 'use client';
 
+import { Analytics } from '@vercel/analytics/react';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { siteConfig } from '@/data/config/site.settings';
 
@@ -12,6 +13,9 @@ export function AnalyticsWrapper() {
 
   return (
     <>
+      {/* Vercel Analytics */}
+      <Analytics />
+
       {/* Google Analytics 4 */}
       {gaId && <GoogleAnalytics gaId={gaId} />}
     </>
