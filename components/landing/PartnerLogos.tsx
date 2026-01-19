@@ -145,11 +145,13 @@ export function PartnerLogos() {
               className="group"
             >
               <div
-                className="flex flex-col items-center justify-center p-4 rounded-xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1 cursor-default"
+                className="flex flex-col items-center justify-center p-4 rounded-xl"
                 style={{
                   backgroundColor: partner.bgColor,
                   border: `1px solid transparent`,
                 }}
+                role="img"
+                aria-label={`${partner.name} integration`}
               >
                 <div className="mb-2 transition-transform duration-300 group-hover:scale-110">
                   <PartnerIcon name={partner.name} color={partner.color} />
