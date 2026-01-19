@@ -1,0 +1,50 @@
+![blogger](http://jcolemanconsulting.com/wp-content/uploads/2023/03/cropped-jcc-icon-512x512-color-1-100x100.png)
+
+blogger
+
+On Posted on [March 10, 2023March 13, 2023](https://jcolemanconsulting.com/what-is-the-work-opportunity-tax-credit-and-who-qualifies-for-it/)
+by [blogger](https://jcolemanconsulting.com/author/blogger/)
+to [Tax](https://jcolemanconsulting.com/category/tax/)
+
+# Work Opportunity Tax Credit Info
+
+At its most straightforward, the Work Opportunity Tax Credit is available at the federal level to businesses that go out of their way to hire people from a targeted group that has historically had difficulty finding gainful employment.
+
+The theory is to encourage business owners of all types to create economic opportunities whenever possible. The Work Opportunity Tax Credit also helps talk a bit of the stress off of various government assistance programs, many of which need all the help they can get.
+
+### **The Work Opportunity Tax Credit: Breaking Things Down**
+
+With regard to the aforementioned targeted groups, they include ones like the following:
+
+- **Qualified IV-A recipients.** This involves anyone who is getting financial assistance - or their family members - under Part A of title IV of the Social Security Act.
+- **Qualified veterans.** An example of this would be a veteran or their family member who was getting SNAP assistance for at least three months. Other examples include those veterans who have been unemployed for various lengths of time given the circumstances.
+- **A qualified ex-felon.** This is a convicted felon hired within at least a year of getting that conviction or being released from prison.
+- **Designated community residence.** This is someone who is at least 18 years old (but no older than 40) and lives in either a rural renewal county or an empowerment zone.
+- **Vocational rehabilitation referral recipients.** This is someone with either a physical or mental disability (or in some cases both) who has been referred to the employer in question. They will also need to have completed either a state plan under the Rehabilitation Act, a program with the Department of Veteran Affairs, or an employment network plan.
+- **A qualified summer youth employee.** This is someone who is between 16 and 18 years old, who performs services between May 1 and September 15, who has never worked for the employer before, and who lives in an empowerment zone.
+
+Other examples of the targeted groups that would allow a business to get approved for the Work Opportunity Tax Credit involve those who have been on long-term unemployment, those who have been on long-term family assistance, and those who are qualified for SSI (supplemental security income), among others.
+
+Because of the way that the Work Opportunity Tax Credit functions, a business cannot simply claim it on their federal income taxes. They must first go through a certification process to confirm that the newly hired employee is in fact a member of one of the targeted groups outlined above.
+
+If approved, employers can then claim the Work Opportunity Tax Credit equal to 40% of the first-year wages, up to $6,000 (more for certain targeted groups) per employee.  Thus, except for those targeted groups with higher allowable creditable wages, the maximum credit is $2,400 (40% of $6,000).  For the full credit (40%), the targeted employee must work for a minimum of 400 hours in the first year.  For those that work between 120 and 399 hours, the credit percentage is reduced to 25%.
+
+The Work Opportunity Tax Credit is a general business credit. If an employer is tax-exempt, they can claim it against the money they are paying out in payroll taxes.
+
+### **Additional Information About the Work Opportunity Tax Credit**
+
+One of the most important things to keep in mind about all of this is that the Work Opportunity Tax Credit is not permanent. It is only actually authorized until the final day of December 2025. The credit has been available for some years and was extended under the Consolidated Appropriations Act in 2021. If it continues to be successful it could easily get renewed again, but it would take an act of Congress to do so.
+
+There are also specific ways to claim the credit that vary depending on your situation. A taxable business can claim the credit in the current year, carry back any unused credit for a single year, and then carry it forward up to 20 years. Again, this is after a qualified employee has been hired.
+
+To claim the credit in a literal sense, you should begin by contacting the State Workforce Agency in your area to get a list of potential applicants. You may be able to find similar information from a local unemployment office.
+
+After screening the potential new hires yourself to confirm that they do indeed qualify, you can submit the appropriate forms - Form 8850 being one of them. Depending on your business status you would also fill out and submit either ETA Form 9061 or 9063. Once completed, file the necessary documents with the State Workforce Agency.
+
+Beyond that, simply make sure that the employee works the required hours during the first 12 months after you hired them (this is a requirement) and you can claim the Work Opportunity Tax Credit using IRS form 5884.
+
+Tags [business](https://jcolemanconsulting.com/tag/business/) [Tax](https://jcolemanconsulting.com/tag/tax/) [Tax Credit](https://jcolemanconsulting.com/tag/tax-credit/)
+
+[PreviousPrevious post:Why Quality Bookkeeping Matters](https://jcolemanconsulting.com/why-quality-bookkeeping-matters/)
+
+[NextNext post:Technology Can Disrupt Your Business Model- What to do?](https://jcolemanconsulting.com/technology-can-disrupt-your-business-model/)

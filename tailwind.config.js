@@ -23,8 +23,10 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['var(--font-space-default)', ...fontFamily.sans],
-        display: ['var(--font-space-display)', ...fontFamily.sans],
+        sans: ['var(--font-inter)', ...fontFamily.sans],
+        display: ['var(--font-frank-ruhl)', 'Georgia', 'serif'],
+        heading: ['var(--font-frank-ruhl)', 'Georgia', 'serif'],
+        ui: ['var(--font-montserrat)', ...fontFamily.sans],
         cursive: ['cursive'],
       },
       colors: {

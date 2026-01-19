@@ -1,18 +1,13 @@
-import { Analytics, AnalyticsConfig } from '@shipixen/pliny/analytics';
-import { Analytics as VercelAnalytics } from '@vercel/analytics/react';
+'use client';
 
 import { siteConfig } from '@/data/config/site.settings';
 
-export const AnalyticsWrapper = () => {
-  if (siteConfig.analytics && Object.keys(siteConfig.analytics).length) {
-    return (
-      <Analytics analyticsConfig={siteConfig.analytics as AnalyticsConfig} />
-    );
+export function AnalyticsWrapper() {
+  // Vercel Analytics is enabled by default via next.config.js
+  // Add other analytics providers here if needed
+  if (siteConfig.disableAnalytics) {
+    return null;
   }
 
-  if (!siteConfig.disableAnalytics) {
-    return <VercelAnalytics />;
-  }
-
-  return <></>;
-};
+  return null;
+}

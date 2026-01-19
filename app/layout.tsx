@@ -1,4 +1,4 @@
-import { Nunito_Sans } from 'next/font/google';
+import { Inter, Montserrat, Frank_Ruhl_Libre } from 'next/font/google';
 import { siteConfig } from '@/data/config/site.settings';
 import { ThemeProviders } from './theme-providers';
 import { Metadata } from 'next';
@@ -8,18 +8,35 @@ import { colors } from '@/data/config/colors.js';
 import '@/css/globals.css';
 import { SearchProvider } from '@/components/shared/SearchProvider';
 import { AnalyticsWrapper } from '@/components/shared/Analytics';
+import { Header } from '@/components/shared/Header';
+import { Footer } from '@/components/shared/Footer';
 
-const displayFont = Nunito_Sans({
+// Serif font for headlines - Frank Ruhl Libre
+const frankRuhlLibre = Frank_Ruhl_Libre({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-space-display',
+  variable: '--font-frank-ruhl',
+  weight: ['300', '400', '500'],
 });
 
-const baseFont = Nunito_Sans({
+// Sans-serif for navigation and UI
+const montserrat = Montserrat({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-space-default',
+  variable: '--font-montserrat',
+  weight: ['400', '500', '600', '700'],
 });
+
+// Sans-serif for body text
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
+
+// Keep compatibility with existing font variables
+const displayFont = frankRuhlLibre;
+const baseFont = inter;
 
 const globalColors = colors;
 const style: string[] = [];
@@ -79,7 +96,7 @@ export default function RootLayout({
   return (
     <html
       lang={siteConfig.language}
-      className={`${baseFont.variable} ${displayFont.variable} scroll-smooth`}
+      className={`${baseFont.variable} ${displayFont.variable} ${montserrat.variable} scroll-smooth`}
       suppressHydrationWarning
     >
       <head>
@@ -132,14 +149,17 @@ export default function RootLayout({
       <body className="flex flex-col bg-white text-black antialiased dark:bg-gray-950 dark:text-white min-h-screen">
         <ThemeProviders>
           <AnalyticsWrapper />
+          <Header />
 
-          <div className="w-full flex flex-col justify-between items-center font-sans">
+          <div className="w-full flex flex-col justify-between items-center font-sans flex-1">
             <SearchProvider>
-              <main className="w-full flex flex-col items-center mb-auto">
+              <main className="w-full flex flex-col items-center mb-auto pt-20">
                 {children}
               </main>
             </SearchProvider>
           </div>
+
+          <Footer />
         </ThemeProviders>
       </body>
     </html>
