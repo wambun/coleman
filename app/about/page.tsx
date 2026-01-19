@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Linkedin } from 'lucide-react';
 import { teamMembers, coreValues } from '@/data/team/members';
 
@@ -139,16 +140,28 @@ export default function AboutPage() {
                 className="p-6 rounded-2xl"
                 style={{ backgroundColor: 'rgba(255, 255, 255, 0.05)' }}
               >
-                {/* Avatar Placeholder */}
-                <div
-                  className="w-20 h-20 rounded-full flex items-center justify-center mb-4 font-display text-2xl"
-                  style={{ backgroundColor: 'rgba(52, 152, 219, 0.2)', color: '#3498db' }}
-                >
-                  {member.name
-                    .split(' ')
-                    .map((n) => n[0])
-                    .join('')}
-                </div>
+                {/* Team Member Photo */}
+                {member.image ? (
+                  <div className="w-20 h-20 rounded-full overflow-hidden mb-4 relative">
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      fill
+                      className="object-cover"
+                      sizes="80px"
+                    />
+                  </div>
+                ) : (
+                  <div
+                    className="w-20 h-20 rounded-full flex items-center justify-center mb-4 font-display text-2xl"
+                    style={{ backgroundColor: 'rgba(52, 152, 219, 0.2)', color: '#3498db' }}
+                  >
+                    {member.name
+                      .split(' ')
+                      .map((n) => n[0])
+                      .join('')}
+                  </div>
+                )}
 
                 <div className="flex items-start justify-between mb-3">
                   <div>
