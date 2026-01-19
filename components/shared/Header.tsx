@@ -44,13 +44,13 @@ export function Header() {
           >
             <Image
               src="/jcc-icon.png"
-              alt="Jay Coleman Consulting"
+              alt="JColeman Consulting"
               width={40}
               height={40}
               className="h-10 w-10"
             />
             <span className="font-display text-xl font-light tracking-wide text-white hidden sm:inline">
-              Jay Coleman
+              JColeman
             </span>
           </Link>
 

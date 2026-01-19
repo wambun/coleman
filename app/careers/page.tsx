@@ -230,7 +230,7 @@ export default function CareersPage() {
                   backgroundClip: 'text',
                 }}
               >
-                Jay Coleman Consulting?
+                JColeman Consulting?
               </span>
             </h2>
             <p
@@ -345,7 +345,7 @@ export default function CareersPage() {
                 className="text-lg leading-relaxed mb-6"
                 style={{ color: 'rgba(255, 255, 255, 0.7)' }}
               >
-                At Jay Coleman Consulting, we believe that great work comes from a
+                At JColeman Consulting, we believe that great work comes from a
                 supportive, collaborative environment. Our team members are
                 trusted professionals who take ownership of their work while
                 supporting each other&apos;s success.

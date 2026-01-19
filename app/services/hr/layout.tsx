@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: `${siteConfig.siteUrl}/services/hr`,
   },
   openGraph: {
-    title: 'People Operations Services | Jay Coleman Consulting',
+    title: 'People Operations Services | JColeman Consulting',
     description:
       'People operations and HR services for startups. Payroll management, benefits administration, compliance, and HR consulting.',
     url: `${siteConfig.siteUrl}/services/hr`,

@@ -50,7 +50,7 @@ If your business doesn't currently offer a retirement plan, now is an excellent 
 
 Contact us to learn more about how your business can take advantage of these tax incentives while building a stronger benefits package for your team.`,
     date: '2025-02-28',
-    author: 'Jay Coleman Consulting',
+    author: 'JColeman Consulting',
     categories: ['Business', 'Tax'],
     tags: ['retirement plans', 'tax credits', 'employee benefits'],
     featured: true,
@@ -94,7 +94,7 @@ Zero-based budgeting requires more time and effort than traditional methods. It 
 
 Ready to stop wasting and start building? Contact us to learn how we can help you implement zero-based budgeting in your business.`,
     date: '2025-02-24',
-    author: 'Jay Coleman Consulting',
+    author: 'JColeman Consulting',
     categories: ['Bookkeeping', 'Business', 'Growing Your Business'],
     tags: ['budgeting', 'financial planning', 'cost optimization'],
   },
@@ -148,7 +148,7 @@ Fees paid to attorneys, accountants, consultants, and other professionals for bu
 
 Don't leave money on the table. Contact us to schedule a tax planning session and ensure you're taking advantage of every deduction available to your business.`,
     date: '2025-02-04',
-    author: 'Jay Coleman Consulting',
+    author: 'JColeman Consulting',
     categories: ['Business', 'Tax'],
     tags: ['tax deductions', 'small business', 'tax planning'],
     featured: true,
@@ -212,7 +212,7 @@ QuickBooks comes with built-in reports that give you a comprehensive view of you
 
 QuickBooks does much more than bookkeeping for small business owners—it can mimic an entire finance department when used effectively. From creating a customized Chart of Accounts to taking advantage of detailed reports, these steps will help you stay organized and reduce stress during tax season (and all year long!)`,
     date: '2025-02-01',
-    author: 'Jay Coleman Consulting',
+    author: 'JColeman Consulting',
     categories: ['Bookkeeping', 'Business'],
     tags: ['QuickBooks', 'bookkeeping', 'accounting software'],
   },
@@ -281,7 +281,7 @@ Strong financials don't just happen—they require intentional effort and expert
 
 Contact us to learn how our fractional CFO services can help you build investor-ready financials and tell a compelling financial story.`,
     date: '2024-05-20',
-    author: 'Jay Coleman Consulting',
+    author: 'JColeman Consulting',
     categories: ['Bookkeeping', 'Business', 'Growing Your Business'],
     tags: ['investors', 'fundraising', 'financial planning'],
     featured: true,
@@ -342,7 +342,7 @@ QuickBooks Online is a versatile accounting solution. It provides invoicing tool
 
 With all the steps in place, startups can utilize cloud-based accounting and see all the benefits!`,
     date: '2024-04-11',
-    author: 'Jay Coleman Consulting',
+    author: 'JColeman Consulting',
     categories: ['Bookkeeping', 'Business', 'Growing Your Business'],
     tags: ['cloud accounting', 'QuickBooks', 'technology'],
   },
@@ -419,7 +419,7 @@ The best way to avoid accounting mistakes is to establish good practices from th
 
 Need help ensuring your startup's accounting is on the right track? Contact us for a consultation.`,
     date: '2024-04-01',
-    author: 'Jay Coleman Consulting',
+    author: 'JColeman Consulting',
     categories: ['Bookkeeping', 'Business', 'Growing Your Business'],
     tags: ['accounting mistakes', 'startup tips', 'bookkeeping'],
   },
@@ -500,7 +500,7 @@ For most startups, outsourcing at least some accounting functions makes sense. I
 
 Ready to explore outsourced accounting for your startup? Contact us to discuss how we can help.`,
     date: '2024-03-14',
-    author: 'Jay Coleman Consulting',
+    author: 'JColeman Consulting',
     categories: ['Bookkeeping', 'Business', 'Growing Your Business'],
     tags: ['outsourced accounting', 'startup services', 'bookkeeping'],
   },
@@ -566,7 +566,7 @@ The right choice depends on your business size, complexity, and budget. But if y
 
 Let us help you take bookkeeping off your plate so you can focus on what you do best. Contact us for a consultation.`,
     date: '2023-05-04',
-    author: 'Jay Coleman Consulting',
+    author: 'JColeman Consulting',
     categories: ['Bookkeeping', 'Business', 'Growing Your Business'],
     tags: ['bookkeeping', 'DIY accounting', 'outsourcing'],
   },
@@ -639,7 +639,7 @@ If cash flow management is keeping you up at night, you don't have to figure it 
 
 Contact us to learn more about how we can help your business thrive, even in uncertain times.`,
     date: '2023-04-21',
-    author: 'Jay Coleman Consulting',
+    author: 'JColeman Consulting',
     categories: ['Bookkeeping', 'Business'],
     tags: ['cash flow', 'invoicing', 'financial management'],
   },

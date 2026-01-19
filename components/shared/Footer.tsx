@@ -20,7 +20,7 @@ export function Footer() {
             <Link href="/" className="inline-flex items-center gap-3 mb-6">
               <Image
                 src="/jcc-icon.png"
-                alt="Jay Coleman Consulting"
+                alt="JColeman Consulting"
                 width={36}
                 height={36}
                 className="h-9 w-9"
@@ -29,7 +29,7 @@ export function Footer() {
                 className="font-display text-xl font-light tracking-wide"
                 style={{ color: '#ffffff' }}
               >
-                Jay Coleman
+                JColeman
               </span>
             </Link>
             <p

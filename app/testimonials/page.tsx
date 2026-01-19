@@ -103,7 +103,7 @@ export default function TestimonialsPage() {
               style={{ color: 'rgba(255, 255, 255, 0.7)' }}
             >
               Read what some of our clients have to say about working with
-              Jay Coleman Consulting.
+              JColeman Consulting.
             </motion.p>
           </div>
         </div>
@@ -312,7 +312,7 @@ export default function TestimonialsPage() {
             className="text-lg mb-10 max-w-2xl mx-auto"
             style={{ color: 'rgba(255, 255, 255, 0.6)' }}
           >
-            Discover how Jay Coleman Consulting can help your startup thrive.
+            Discover how JColeman Consulting can help your startup thrive.
           </motion.p>
 
           <motion.div

@@ -6,7 +6,7 @@ import { articles, categories, getFeaturedArticles } from '@/data/articles/artic
 export const metadata: Metadata = {
   title: 'Articles',
   description:
-    'Expert insights on accounting, tax, bookkeeping, and business growth for startups. Read our latest articles from Jay Coleman Consulting.',
+    'Expert insights on accounting, tax, bookkeeping, and business growth for startups. Read our latest articles from JColeman Consulting.',
 };
 
 function formatDate(dateString: string): string {

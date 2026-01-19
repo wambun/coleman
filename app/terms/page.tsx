@@ -5,7 +5,7 @@ import { ArrowLeft } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Terms of Service',
   description:
-    'Jay Coleman Consulting Terms of Service. Read our terms and conditions for using our website and services.',
+    'JColeman Consulting Terms of Service. Read our terms and conditions for using our website and services.',
 };
 
 export default function TermsPage() {
@@ -53,7 +53,7 @@ export default function TermsPage() {
               Agreement to Terms
             </h2>
             <p className="text-base leading-relaxed mb-6">
-              By accessing or using the Jay Coleman Consulting website and services, you agree to
+              By accessing or using the JColeman Consulting website and services, you agree to
               be bound by these Terms of Service. If you disagree with any part of these terms,
               you may not access our website or use our services.
             </p>
@@ -65,7 +65,7 @@ export default function TermsPage() {
               Services Description
             </h2>
             <p className="text-base leading-relaxed mb-6">
-              Jay Coleman Consulting provides accounting, bookkeeping, tax, and fractional CFO
+              JColeman Consulting provides accounting, bookkeeping, tax, and fractional CFO
               services to startups and small businesses. The specific services provided to each
               client are defined in individual service agreements.
             </p>
@@ -77,7 +77,7 @@ export default function TermsPage() {
               Client Responsibilities
             </h2>
             <p className="text-base leading-relaxed mb-4">
-              As a client of Jay Coleman Consulting, you agree to:
+              As a client of JColeman Consulting, you agree to:
             </p>
             <ul className="list-disc pl-6 space-y-2 mb-6">
               <li className="leading-relaxed">
@@ -103,7 +103,7 @@ export default function TermsPage() {
             </h2>
             <p className="text-base leading-relaxed mb-6">
               The content, features, and functionality of our website, including but not limited
-              to text, graphics, logos, and software, are owned by Jay Coleman Consulting and are
+              to text, graphics, logos, and software, are owned by JColeman Consulting and are
               protected by copyright, trademark, and other intellectual property laws.
             </p>
 
@@ -114,7 +114,7 @@ export default function TermsPage() {
               Limitation of Liability
             </h2>
             <p className="text-base leading-relaxed mb-6">
-              Jay Coleman Consulting shall not be liable for any indirect, incidental, special,
+              JColeman Consulting shall not be liable for any indirect, incidental, special,
               consequential, or punitive damages resulting from your use of our services or
               reliance on any information provided through our website. Our liability for any
               claim arising from our services shall be limited to the fees paid for those
@@ -196,7 +196,7 @@ export default function TermsPage() {
               style={{ backgroundColor: '#f9f9f9' }}
             >
               <p className="text-base mb-2" style={{ color: '#0d1c29' }}>
-                <strong>Jay Coleman Consulting</strong>
+                <strong>JColeman Consulting</strong>
               </p>
               <p className="text-base mb-1" style={{ color: 'rgba(13, 28, 41, 0.7)' }}>
                 1636 Roadrunner Dr

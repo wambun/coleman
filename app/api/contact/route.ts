@@ -58,9 +58,9 @@ export async function POST(request: NextRequest) {
 
     const resendClient = getResendClient();
 
-    // Send email notification to Jay Coleman
+    // Send email notification to JColeman
     await resendClient.emails.send({
-      from: 'Jay Coleman Consulting <notifications@jcolemanconsulting.com>',
+      from: 'JColeman Consulting <notifications@jcolemanconsulting.com>',
       to: ['info@jcolemanconsulting.com'],
       replyTo: body.email,
       subject: `New Contact Form Submission from ${body.firstName} ${body.lastName}`,
@@ -117,9 +117,9 @@ export async function POST(request: NextRequest) {
 
     // Send confirmation email to the user
     await resendClient.emails.send({
-      from: 'Jay Coleman Consulting <notifications@jcolemanconsulting.com>',
+      from: 'JColeman Consulting <notifications@jcolemanconsulting.com>',
       to: [body.email],
-      subject: 'Thank you for contacting Jay Coleman Consulting',
+      subject: 'Thank you for contacting JColeman Consulting',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: linear-gradient(135deg, #0d1c29 0%, #132030 100%); padding: 30px; text-align: center;">
@@ -128,7 +128,7 @@ export async function POST(request: NextRequest) {
 
           <div style="padding: 30px; background-color: #f8fafc;">
             <p style="color: #0d1c29; font-size: 16px; line-height: 1.6; margin-top: 0;">
-              We've received your message and appreciate you reaching out to Jay Coleman Consulting.
+              We've received your message and appreciate you reaching out to JColeman Consulting.
             </p>
 
             <p style="color: #0d1c29; font-size: 16px; line-height: 1.6;">
@@ -153,12 +153,12 @@ export async function POST(request: NextRequest) {
 
             <p style="color: #666; font-size: 14px; line-height: 1.6;">
               Best regards,<br>
-              <strong style="color: #0d1c29;">The Jay Coleman Consulting Team</strong>
+              <strong style="color: #0d1c29;">The JColeman Consulting Team</strong>
             </p>
           </div>
 
           <div style="padding: 20px; text-align: center; color: #666; font-size: 12px; border-top: 1px solid #e8eded;">
-            <p style="margin: 0 0 10px 0;">Jay Coleman Consulting</p>
+            <p style="margin: 0 0 10px 0;">JColeman Consulting</p>
             <p style="margin: 0;">1636 Roadrunner Dr, Roseville, CA 95747</p>
           </div>
         </div>
