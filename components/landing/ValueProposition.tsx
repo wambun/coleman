@@ -78,7 +78,7 @@ export function ValueProposition() {
             className="font-display text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight"
             style={{ color: '#ffffff' }}
           >
-            The JColeman Advantage
+            The Jay Coleman Advantage
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

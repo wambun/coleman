@@ -1,17 +1,17 @@
-/* JColeman Consulting - Brand Color System */
+/* Jay Coleman Consulting - Brand Color System */
 /* Based on JC logo: Blue (#3498db) + Orange (#f68212) */
 const colors = {
   primary: {
     lighter: '#85c1e9', // Light sky blue
     light: '#5dade2', // Sky blue
-    main: '#3498db', // JColeman Blue - primary brand color
+    main: '#3498db', // Jay Coleman Blue - primary brand color
     dark: '#2980b9', // Darker blue
     darker: '#1a5276', // Deep blue
   },
   accent: {
     lighter: '#fbb862', // Light orange
     light: '#f99d33', // Soft orange
-    main: '#f68212', // JColeman Orange - CTAs, highlights
+    main: '#f68212', // Jay Coleman Orange - CTAs, highlights
     dark: '#d96f0a', // Darker orange
     darker: '#b85c08', // Deep orange
   },

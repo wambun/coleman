@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    'Get in touch with JColeman Consulting. Request information about our accounting, tax, and CFO services for startups.',
+    'Get in touch with Jay Coleman Consulting. Request information about our accounting, tax, and CFO services for startups.',
 };
 
 export default function ContactLayout({

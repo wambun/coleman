@@ -1,10 +1,10 @@
 const metadata = {
-  title: 'JColeman Consulting',
+  title: 'Jay Coleman Consulting',
   description:
     'Expert accounting, bookkeeping, tax, and fractional CFO services for startups. We empower startups to thrive through trusted financial partnership.',
   domain: 'jcolemanconsulting.com',
-  logoTitle: 'JColeman',
-  businessName: 'JColeman Consulting',
+  logoTitle: 'Jay Coleman',
+  businessName: 'Jay Coleman Consulting',
   siteUrl: 'https://jcolemanconsulting.com',
   siteRepo: '',
   socialBanner: '/api/og',
@@ -19,7 +19,7 @@ const metadata = {
   facebook: '',
   threads: '',
   mastodon: '',
-  author: 'JColeman Consulting',
+  author: 'Jay Coleman Consulting',
   language: 'en-us',
   theme: 'dark',
   locale: 'en-US',

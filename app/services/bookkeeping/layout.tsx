@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: `${siteConfig.siteUrl}/services/bookkeeping`,
   },
   openGraph: {
-    title: 'Bookkeeping Services | JColeman Consulting',
+    title: 'Bookkeeping Services | Jay Coleman Consulting',
     description:
       'Professional bookkeeping services for startups. Monthly bookkeeping, financial reporting, payroll processing, and audit preparation.',
     url: `${siteConfig.siteUrl}/services/bookkeeping`,

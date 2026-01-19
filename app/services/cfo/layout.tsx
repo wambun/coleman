@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: `${siteConfig.siteUrl}/services/cfo`,
   },
   openGraph: {
-    title: 'Fractional CFO Services | JColeman Consulting',
+    title: 'Fractional CFO Services | Jay Coleman Consulting',
     description:
       'Fractional CFO services for startups. Executive-level financial leadership including strategic planning, financial modeling, and fundraising support.',
     url: `${siteConfig.siteUrl}/services/cfo`,

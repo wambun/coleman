@@ -5,7 +5,7 @@ import { ArrowLeft } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    'JColeman Consulting Privacy Policy. Learn how we collect, use, and protect your personal information.',
+    'Jay Coleman Consulting Privacy Policy. Learn how we collect, use, and protect your personal information.',
 };
 
 export default function PrivacyPage() {
@@ -53,7 +53,7 @@ export default function PrivacyPage() {
               Introduction
             </h2>
             <p className="text-base leading-relaxed mb-6">
-              JColeman Consulting (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) respects your privacy and is
+              Jay Coleman Consulting (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) respects your privacy and is
               committed to protecting your personal information. This Privacy Policy explains
               how we collect, use, disclose, and safeguard your information when you visit our
               website or use our services.
@@ -184,7 +184,7 @@ export default function PrivacyPage() {
               style={{ backgroundColor: '#f9f9f9' }}
             >
               <p className="text-base mb-2" style={{ color: '#0d1c29' }}>
-                <strong>JColeman Consulting</strong>
+                <strong>Jay Coleman Consulting</strong>
               </p>
               <p className="text-base mb-1" style={{ color: 'rgba(13, 28, 41, 0.7)' }}>
                 1636 Roadrunner Dr

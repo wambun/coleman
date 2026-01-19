@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: `${siteConfig.siteUrl}/services/tax`,
   },
   openGraph: {
-    title: 'Tax Services | JColeman Consulting',
+    title: 'Tax Services | Jay Coleman Consulting',
     description:
       'Expert tax services for startups including R&D tax credits, tax planning, compliance, and preparation.',
     url: `${siteConfig.siteUrl}/services/tax`,

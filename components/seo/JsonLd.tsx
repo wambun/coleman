@@ -5,7 +5,7 @@ export function OrganizationJsonLd() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'JColeman Consulting',
+    name: 'Jay Coleman Consulting',
     url: siteConfig.siteUrl,
     logo: `${siteConfig.siteUrl}/static/images/logo.png`,
     description: siteConfig.description,
@@ -40,7 +40,7 @@ export function LocalBusinessJsonLd() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'AccountingService',
-    name: 'JColeman Consulting',
+    name: 'Jay Coleman Consulting',
     url: siteConfig.siteUrl,
     logo: `${siteConfig.siteUrl}/static/images/logo.png`,
     image: `${siteConfig.siteUrl}/api/og`,
@@ -97,7 +97,7 @@ export function ServiceJsonLd({ name, description, url }: ServiceJsonLdProps) {
     url,
     provider: {
       '@type': 'Organization',
-      name: 'JColeman Consulting',
+      name: 'Jay Coleman Consulting',
       url: siteConfig.siteUrl,
     },
     areaServed: {
@@ -131,7 +131,7 @@ export function ArticleJsonLd({
   url,
   datePublished,
   dateModified,
-  author = 'JColeman Consulting',
+  author = 'Jay Coleman Consulting',
   image,
 }: ArticleJsonLdProps) {
   const schema = {
@@ -149,7 +149,7 @@ export function ArticleJsonLd({
     },
     publisher: {
       '@type': 'Organization',
-      name: 'JColeman Consulting',
+      name: 'Jay Coleman Consulting',
       url: siteConfig.siteUrl,
       logo: {
         '@type': 'ImageObject',
@@ -206,12 +206,12 @@ export function WebSiteJsonLd() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'JColeman Consulting',
+    name: 'Jay Coleman Consulting',
     url: siteConfig.siteUrl,
     description: siteConfig.description,
     publisher: {
       '@type': 'Organization',
-      name: 'JColeman Consulting',
+      name: 'Jay Coleman Consulting',
     },
   };
 

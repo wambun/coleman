@@ -14,14 +14,14 @@ export const teamMembers: TeamMember[] = [
   {
     name: 'Joanna Coleman',
     title: 'Founder & CEO',
-    bio: 'Joanna founded JColeman Consulting with a vision to provide startups with the financial expertise they need to scale confidently. With over 25 years of experience in accounting and finance leadership, she has become a trusted advisor to founders navigating the complexities of startup growth.',
-    fullBio: `Joanna founded JColeman Consulting with a vision to provide startups with the financial expertise they need to scale confidently. With over 25 years of experience in accounting and finance leadership, she has become a trusted advisor to founders navigating the complexities of startup growth.
+    bio: 'Joanna founded Jay Coleman Consulting with a vision to provide startups with the financial expertise they need to scale confidently. With over 25 years of experience in accounting and finance leadership, she has become a trusted advisor to founders navigating the complexities of startup growth.',
+    fullBio: `Joanna founded Jay Coleman Consulting with a vision to provide startups with the financial expertise they need to scale confidently. With over 25 years of experience in accounting and finance leadership, she has become a trusted advisor to founders navigating the complexities of startup growth.
 
 Throughout her career, Joanna has helped build a successful public accounting firm and served as part of the core management team within many small businesses and startups, both private and public. She excels in both strategic and tactical initiatives, bringing a unique combination of big-picture thinking and hands-on execution that moves companies forward toward achieving their goals.
 
 Joanna has directly helped raise over $100 million for startups through non-dilutive and equity financing rounds. Her deep understanding of investor expectations and board dynamics makes her an invaluable partner during fundraising and beyond. She is well-versed in board and investor relations, corporate governance, and the financial storytelling that resonates with stakeholders.
 
-Her approach combines rigorous financial discipline with genuine empathy for the challenges founders face. Joanna believes that strong financial foundations don't just support growth—they accelerate it. Under her leadership, JColeman Consulting has helped dozens of startups transform their financial operations from a pain point into a competitive advantage.`,
+Her approach combines rigorous financial discipline with genuine empathy for the challenges founders face. Joanna believes that strong financial foundations don't just support growth—they accelerate it. Under her leadership, Jay Coleman Consulting has helped dozens of startups transform their financial operations from a pain point into a competitive advantage.`,
     highlights: [
       'Raised $100M+ for startups in non-dilutive and equity financing',
       '25+ years of accounting and finance leadership',
@@ -75,7 +75,7 @@ Kimberly has demonstrated long-term success in partnering with operations leader
     title: 'Controller & Onboarding Specialist',
     credentials: 'MBA',
     bio: 'Dana is a seasoned financial leader with over 15 years of experience in financial reporting, budgeting, compliance, and business operations. Her dual role as Controller and Onboarding Specialist ensures new clients transition smoothly.',
-    fullBio: `Dana is a seasoned financial leader with over 15 years of experience in financial reporting, budgeting, compliance, and business operations. Her dual role as Controller and Onboarding Specialist ensures new clients transition smoothly into working with JColeman Consulting.
+    fullBio: `Dana is a seasoned financial leader with over 15 years of experience in financial reporting, budgeting, compliance, and business operations. Her dual role as Controller and Onboarding Specialist ensures new clients transition smoothly into working with Jay Coleman Consulting.
 
 She holds a Bachelor's degree in Accounting from Athens State University and an MBA from the University of Alabama in Huntsville. This combination of academic credentials and real-world experience gives Dana the foundation to handle complex financial challenges with confidence.
 
